@@ -8,8 +8,8 @@ Works on macOS.
 ```
 $ git clone https://github.com/dustbyte/open_github.git
 $ ./open_github open_github.sh
-# executes `open https://github.com/dustbyte/openhub/blob/main/open_github.sh`
+# executes `open https://github.com/dustbyte/open_github/blob/main/open_github.sh`
 
 $ ./open_github open_github.sh 14
-# executes `open https://github.com/dustbyte/openhub/blob/main/open_github.sh#L14`
+# executes `open https://github.com/dustbyte/open_github/blob/main/open_github.sh#L14`
 ```
