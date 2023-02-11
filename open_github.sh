@@ -22,7 +22,7 @@ if [ "$line_number" != "" ]; then
 fi
 
 if echo $url | grep '@' > /dev/null ; then
-  url="https://$(echo $url | cut -d @ -f 2 | sed 's/.git//g' | sed 's/:/\//g')"
+  url="https://$(echo $url | cut -d @ -f 2 | sed 's/\.git$//g' | sed 's/:/\//g')"
 fi
 
 open "$url/blob/${branch}/${file_path}${line_number}"
